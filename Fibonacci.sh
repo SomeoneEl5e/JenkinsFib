@@ -16,8 +16,8 @@ else
     done
 
     if [ $b -eq $userInput ]; then
-        echo "The number is in the $N position in the Fibonacci series"
+        echo "The number $userInput is in the $N position in the Fibonacci series"
     else
-        echo "The number is not in the Fibonacci series"
+        echo "The number $userInput is not in the Fibonacci series"
     fi
 fi
